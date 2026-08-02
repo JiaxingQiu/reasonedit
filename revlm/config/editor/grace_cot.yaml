@@ -1,0 +1,8 @@
+_name: grace_cot
+edit_lr: 1e-2
+n_iter: 500
+eps: 0.1
+dist_fn: cos
+replacement: replace_all
+early_stop_patience: 50
+

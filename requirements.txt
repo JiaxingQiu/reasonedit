@@ -1,0 +1,36 @@
+# Core dependencies
+# Install PyTorch from CUDA 12.8 wheel index
+# --index-url https://download.pytorch.org/whl/cu128
+torch==2.8.0
+torchvision==0.23.0
+transformers @ git+https://github.com/huggingface/transformers@76fc50a1527a7db593a6057903b749598f7000a9
+accelerate>=0.33.0
+tokenizers>=0.15.0
+safetensors>=0.4.3
+sentence-transformers==5.2.2
+openai==2.16.0
+wandb==0.24.1
+
+
+# image generation
+diffusers==0.35.2
+protobuf==6.33.1
+sentencepiece==0.2.1
+
+# Dataset handling
+datasets>=2.0.0
+pandas==2.1.4
+
+# Utilities
+numpy==1.26.4
+tqdm==4.62.3
+PyYAML==6.0
+pillow>=10.0.0
+ipywidgets>=8.0.0  # Required for tqdm progress bars in Jupyter notebooks
+
+# Editor dependencies
+higher==0.2.1  # Used by MEND editor
+
+# Optional - comment out if not using ROME editor
+matplotlib==3.10.8  # Used by ROME compute_v
+seaborn==0.13.2

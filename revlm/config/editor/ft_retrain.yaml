@@ -1,0 +1,5 @@
+_name: ft_retrain
+edit_lr: 1e-3
+n_iter: 100
+early_stop_patience: 20  # Stop training if loss doesn't decrease for N iterations
+retrain_batch_size: 5    # Effective batch size for retrain (micro-batch grad accumulation over history)

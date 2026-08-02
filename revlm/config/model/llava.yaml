@@ -1,0 +1,10 @@
+name: "llava-hf/llava-1.5-7b-hf"
+class_name: VQAModel
+pt: null
+inner_params: ["model.language_model.layers.31.mlp.gate_proj.weight"] # conventional layer
+inner_params_vision: ["model.vision_tower.vision_model.encoder.layers.19.mlp.fc1.weight"]
+inner_params_lang: ["model.language_model.layers.18.mlp.gate_proj.weight"]
+lang_scaler_sbert: 7 # 10
+processor_class: null
+tokenizer_class: null
+temperature: 0.0

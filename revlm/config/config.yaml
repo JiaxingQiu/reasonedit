@@ -1,0 +1,33 @@
+# Default configuration for VLM editing experiments
+# Similar structure to GRACE but simplified without Hydra
+
+# Global settings
+batch_size: 1
+n_iter: 100
+max_n_edits: 5000
+max_new_tokens: 10  # Max tokens for VLM generation (increase for longer answers, e.g., 100)
+seed: 42
+device: cuda
+ckpt_dir: null  # Set to path like "./ckpts" to enable checkpointing
+dropout: null  # Optional: dropout probability for model
+
+# Backbone VLM Model configuration
+model:
+  name: "llava-hf/llava-1.5-7b-hf"  # VLM model name ("qwen3":"Qwen/Qwen3-VL-8B-Instruct", "qwen3_4b":"Qwen/Qwen3-VL-4B-Instruct", "llava":"llava-hf/llava-1.5-7b-hf", "blip":"Salesforce/instructblip-vicuna-7b")
+  class_name: VQAModel  # Model wrapper class (VQAModel for VQA tasks)
+  pt: null  # Path to pretrained checkpoint
+  inner_params: []  # REQUIRED: e.g., ["model.language_model.layers.0.self_attn.q_proj.weight"]
+  processor_class: null  # Optional: explicit processor class name
+  tokenizer_class: null  # Optional: explicit tokenizer class name
+
+# Editor configuration 
+editor: ft  # Options: ft, ft_ewc, ft_retrain, mend, grace, rome, memory, defer
+
+# Experiment/dataset configuration
+experiment:
+  task: mc # Options: mc, mci, qa
+  dataset_name: "fvqa"
+  pred_by: "label_maxprob"
+  split: "all"
+  suffix: ""
+

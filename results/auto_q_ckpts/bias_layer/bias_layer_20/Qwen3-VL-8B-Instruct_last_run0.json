@@ -1,0 +1,593 @@
+{
+  "bias_scores": {
+    "model.visual.blocks.0.mlp.linear_fc1.weight": {
+      "vision_bias": 23.202198147773743,
+      "vision_bias_std": 6.210233335085652,
+      "text_bias": -24.294371763865154,
+      "text_bias_std": 5.944756908511713
+    },
+    "model.visual.blocks.0.mlp.linear_fc2.weight": {
+      "vision_bias": 19.043431401252747,
+      "vision_bias_std": 5.869310130438598,
+      "text_bias": -19.913699984550476,
+      "text_bias_std": 5.544728216730823
+    },
+    "model.visual.blocks.1.mlp.linear_fc1.weight": {
+      "vision_bias": 27.606470743815105,
+      "vision_bias_std": 5.373453841777684,
+      "text_bias": -28.10538935661316,
+      "text_bias_std": 4.533507483949085
+    },
+    "model.visual.blocks.1.mlp.linear_fc2.weight": {
+      "vision_bias": 9.81364925702413,
+      "vision_bias_std": 1.9939580207528274,
+      "text_bias": -10.165008306503296,
+      "text_bias_std": 1.9601076273052336
+    },
+    "model.visual.blocks.2.mlp.linear_fc1.weight": {
+      "vision_bias": 28.33710527420044,
+      "vision_bias_std": 3.0184953057373476,
+      "text_bias": -28.503620624542236,
+      "text_bias_std": 2.6538928054226485
+    },
+    "model.visual.blocks.2.mlp.linear_fc2.weight": {
+      "vision_bias": 10.57395076751709,
+      "vision_bias_std": 0.9702718891905632,
+      "text_bias": -10.764402548472086,
+      "text_bias_std": 0.9680606753609313
+    },
+    "model.visual.blocks.3.mlp.linear_fc1.weight": {
+      "vision_bias": 27.118619600931805,
+      "vision_bias_std": 2.5671265099150844,
+      "text_bias": -26.881367206573486,
+      "text_bias_std": 2.4655719325957723
+    },
+    "model.visual.blocks.3.mlp.linear_fc2.weight": {
+      "vision_bias": 7.9464313586552935,
+      "vision_bias_std": 0.7366438386047949,
+      "text_bias": -7.844072739283244,
+      "text_bias_std": 0.8567572272596435
+    },
+    "model.visual.blocks.4.mlp.linear_fc1.weight": {
+      "vision_bias": 27.896523475646973,
+      "vision_bias_std": 2.7487228172829643,
+      "text_bias": -27.4379399617513,
+      "text_bias_std": 2.519490402901265
+    },
+    "model.visual.blocks.4.mlp.linear_fc2.weight": {
+      "vision_bias": 7.716541687647502,
+      "vision_bias_std": 0.934405509999511,
+      "text_bias": -7.556951880455017,
+      "text_bias_std": 0.8476102995790494
+    },
+    "model.visual.blocks.5.mlp.linear_fc1.weight": {
+      "vision_bias": 27.65681489308675,
+      "vision_bias_std": 2.5320938949317435,
+      "text_bias": -27.150713443756104,
+      "text_bias_std": 2.4271982845499207
+    },
+    "model.visual.blocks.5.mlp.linear_fc2.weight": {
+      "vision_bias": 8.811482707659403,
+      "vision_bias_std": 1.1720897904438596,
+      "text_bias": -8.515344778696695,
+      "text_bias_std": 0.7416056762469017
+    },
+    "model.visual.blocks.6.mlp.linear_fc1.weight": {
+      "vision_bias": 26.01759910583496,
+      "vision_bias_std": 2.771247418442476,
+      "text_bias": -25.424352645874023,
+      "text_bias_std": 2.487098048557616
+    },
+    "model.visual.blocks.6.mlp.linear_fc2.weight": {
+      "vision_bias": 7.909849445025126,
+      "vision_bias_std": 1.1183163565431957,
+      "text_bias": -7.612537344296773,
+      "text_bias_std": 0.8177125906266491
+    },
+    "model.visual.blocks.7.mlp.linear_fc1.weight": {
+      "vision_bias": 25.03980890909831,
+      "vision_bias_std": 2.920655709286918,
+      "text_bias": -24.385411103566486,
+      "text_bias_std": 2.7424485296567704
+    },
+    "model.visual.blocks.7.mlp.linear_fc2.weight": {
+      "vision_bias": 7.601083040237427,
+      "vision_bias_std": 0.8953936196038139,
+      "text_bias": -7.521024584770203,
+      "text_bias_std": 1.0190475635089828
+    },
+    "model.visual.blocks.8.mlp.linear_fc1.weight": {
+      "vision_bias": 23.756529966990154,
+      "vision_bias_std": 3.0972394199346516,
+      "text_bias": -23.13053305943807,
+      "text_bias_std": 2.896945862594669
+    },
+    "model.visual.blocks.8.mlp.linear_fc2.weight": {
+      "vision_bias": 7.133753776550293,
+      "vision_bias_std": 1.0192481827777982,
+      "text_bias": -7.0499221086502075,
+      "text_bias_std": 1.0428533375933298
+    },
+    "model.visual.blocks.9.mlp.linear_fc1.weight": {
+      "vision_bias": 24.9429767926534,
+      "vision_bias_std": 3.35333399913401,
+      "text_bias": -24.336975892384846,
+      "text_bias_std": 2.9775812140256464
+    },
+    "model.visual.blocks.9.mlp.linear_fc2.weight": {
+      "vision_bias": 6.623517672220866,
+      "vision_bias_std": 1.0258287265699104,
+      "text_bias": -6.55129333337148,
+      "text_bias_std": 0.8665978342286398
+    },
+    "model.visual.blocks.10.mlp.linear_fc1.weight": {
+      "vision_bias": 24.668773810068767,
+      "vision_bias_std": 3.641004829988133,
+      "text_bias": -24.110783259073894,
+      "text_bias_std": 2.9963174497049163
+    },
+    "model.visual.blocks.10.mlp.linear_fc2.weight": {
+      "vision_bias": 6.312982161839803,
+      "vision_bias_std": 1.2307829237008665,
+      "text_bias": -6.33629043896993,
+      "text_bias_std": 1.0192651856026498
+    },
+    "model.visual.blocks.11.mlp.linear_fc1.weight": {
+      "vision_bias": 23.881853103637695,
+      "vision_bias_std": 3.9204920405753585,
+      "text_bias": -23.59340699513753,
+      "text_bias_std": 3.2180300104026327
+    },
+    "model.visual.blocks.11.mlp.linear_fc2.weight": {
+      "vision_bias": 6.421570618947347,
+      "vision_bias_std": 1.4552521264971623,
+      "text_bias": -6.388426899909973,
+      "text_bias_std": 1.0568096906303437
+    },
+    "model.visual.blocks.12.mlp.linear_fc1.weight": {
+      "vision_bias": 24.146875699361164,
+      "vision_bias_std": 4.6344260812489315,
+      "text_bias": -24.04593324661255,
+      "text_bias_std": 3.8967463746729227
+    },
+    "model.visual.blocks.12.mlp.linear_fc2.weight": {
+      "vision_bias": 5.9607875148455305,
+      "vision_bias_std": 1.6469419360781579,
+      "text_bias": -6.0910608768463135,
+      "text_bias_std": 1.4408595918638523
+    },
+    "model.visual.blocks.13.mlp.linear_fc1.weight": {
+      "vision_bias": 21.135450681050617,
+      "vision_bias_std": 5.105964884110761,
+      "text_bias": -21.109403610229492,
+      "text_bias_std": 4.442553300316008
+    },
+    "model.visual.blocks.13.mlp.linear_fc2.weight": {
+      "vision_bias": 6.491391698519389,
+      "vision_bias_std": 2.01917205166118,
+      "text_bias": -6.481850862503052,
+      "text_bias_std": 1.8496116413799182
+    },
+    "model.visual.blocks.14.mlp.linear_fc1.weight": {
+      "vision_bias": 32.571356455485024,
+      "vision_bias_std": 8.679288449124842,
+      "text_bias": -32.663698514302574,
+      "text_bias_std": 7.896090415202246
+    },
+    "model.visual.blocks.14.mlp.linear_fc2.weight": {
+      "vision_bias": 4.896796027819316,
+      "vision_bias_std": 1.646399810885057,
+      "text_bias": -4.8702788551648455,
+      "text_bias_std": 1.6173588628583462
+    },
+    "model.visual.blocks.15.mlp.linear_fc1.weight": {
+      "vision_bias": 30.516594250996906,
+      "vision_bias_std": 7.779337585035651,
+      "text_bias": -30.385682106018066,
+      "text_bias_std": 7.433382761500556
+    },
+    "model.visual.blocks.15.mlp.linear_fc2.weight": {
+      "vision_bias": 6.822163263956706,
+      "vision_bias_std": 1.6011474659853575,
+      "text_bias": -6.633768796920776,
+      "text_bias_std": 1.4732690765860004
+    },
+    "model.visual.blocks.16.mlp.linear_fc1.weight": {
+      "vision_bias": 43.18289693196615,
+      "vision_bias_std": 11.14315999305554,
+      "text_bias": -42.72586997350057,
+      "text_bias_std": 11.174220325037005
+    },
+    "model.visual.blocks.16.mlp.linear_fc2.weight": {
+      "vision_bias": 8.262830257415771,
+      "vision_bias_std": 1.7915226777764066,
+      "text_bias": -8.046915531158447,
+      "text_bias_std": 2.060131239182667
+    },
+    "model.visual.blocks.17.mlp.linear_fc1.weight": {
+      "vision_bias": 64.74461936950684,
+      "vision_bias_std": 16.847870237546637,
+      "text_bias": -63.59521611531576,
+      "text_bias_std": 16.921068305312097
+    },
+    "model.visual.blocks.17.mlp.linear_fc2.weight": {
+      "vision_bias": 9.57612939675649,
+      "vision_bias_std": 2.5819752931602387,
+      "text_bias": -9.376060724258423,
+      "text_bias_std": 2.405105232919837
+    },
+    "model.visual.blocks.18.mlp.linear_fc1.weight": {
+      "vision_bias": 68.81005891164143,
+      "vision_bias_std": 17.79690770834075,
+      "text_bias": -67.46557585398357,
+      "text_bias_std": 17.755492877108658
+    },
+    "model.visual.blocks.18.mlp.linear_fc2.weight": {
+      "vision_bias": 11.173418521881104,
+      "vision_bias_std": 2.255383683944172,
+      "text_bias": -10.71514892578125,
+      "text_bias_std": 1.9438487615063234
+    },
+    "model.visual.blocks.19.mlp.linear_fc1.weight": {
+      "vision_bias": 83.24542554219563,
+      "vision_bias_std": 19.435878580150053,
+      "text_bias": -81.15976397196452,
+      "text_bias_std": 19.886404095975212
+    },
+    "model.visual.blocks.19.mlp.linear_fc2.weight": {
+      "vision_bias": 9.589112242062887,
+      "vision_bias_std": 1.9215723864617267,
+      "text_bias": -9.239388585090637,
+      "text_bias_std": 1.7384711360965348
+    },
+    "model.visual.blocks.20.mlp.linear_fc1.weight": {
+      "vision_bias": 87.34849262237549,
+      "vision_bias_std": 18.996809294625614,
+      "text_bias": -84.83299827575684,
+      "text_bias_std": 19.60399905051293
+    },
+    "model.visual.blocks.20.mlp.linear_fc2.weight": {
+      "vision_bias": 10.20035739739736,
+      "vision_bias_std": 2.314069683796187,
+      "text_bias": -9.453890124956766,
+      "text_bias_std": 2.163479995090355
+    },
+    "model.visual.blocks.21.mlp.linear_fc1.weight": {
+      "vision_bias": 79.10755316416423,
+      "vision_bias_std": 17.675815669826502,
+      "text_bias": -75.82162221272786,
+      "text_bias_std": 18.034540759576704
+    },
+    "model.visual.blocks.21.mlp.linear_fc2.weight": {
+      "vision_bias": 9.19732916355133,
+      "vision_bias_std": 1.4102372534917473,
+      "text_bias": -8.720315257708231,
+      "text_bias_std": 1.6368296785260108
+    },
+    "model.visual.blocks.22.mlp.linear_fc1.weight": {
+      "vision_bias": 67.44527276357015,
+      "vision_bias_std": 14.526234193584969,
+      "text_bias": -64.4676284790039,
+      "text_bias_std": 15.544867807809664
+    },
+    "model.visual.blocks.22.mlp.linear_fc2.weight": {
+      "vision_bias": 7.923435052235921,
+      "vision_bias_std": 1.2467919541649841,
+      "text_bias": -7.288602352142334,
+      "text_bias_std": 1.4769863625440696
+    },
+    "model.visual.blocks.23.mlp.linear_fc1.weight": {
+      "vision_bias": 80.96816412607829,
+      "vision_bias_std": 17.340583230056108,
+      "text_bias": -77.32361030578613,
+      "text_bias_std": 18.43246392422364
+    },
+    "model.visual.blocks.23.mlp.linear_fc2.weight": {
+      "vision_bias": 9.537472208340963,
+      "vision_bias_std": 2.54714476954476,
+      "text_bias": -9.387324134508768,
+      "text_bias_std": 2.755642293392296
+    },
+    "model.visual.blocks.24.mlp.linear_fc1.weight": {
+      "vision_bias": 95.98598607381184,
+      "vision_bias_std": 19.92507935660085,
+      "text_bias": -91.43628629048665,
+      "text_bias_std": 21.58505970888254
+    },
+    "model.visual.blocks.24.mlp.linear_fc2.weight": {
+      "vision_bias": 18.79381267229716,
+      "vision_bias_std": 2.99363591208333,
+      "text_bias": -18.170499324798584,
+      "text_bias_std": 4.316146772786951
+    },
+    "model.visual.blocks.25.mlp.linear_fc1.weight": {
+      "vision_bias": 119.96352450052898,
+      "vision_bias_std": 24.925512583717424,
+      "text_bias": -114.33331108093262,
+      "text_bias_std": 26.17782602087513
+    },
+    "model.visual.blocks.25.mlp.linear_fc2.weight": {
+      "vision_bias": 32.01960261662801,
+      "vision_bias_std": 9.425318270575342,
+      "text_bias": -29.785778840382893,
+      "text_bias_std": 7.357972877666905
+    },
+    "model.visual.blocks.26.mlp.linear_fc1.weight": {
+      "vision_bias": 115.25527381896973,
+      "vision_bias_std": 24.405923044648073,
+      "text_bias": -109.16058858235677,
+      "text_bias_std": 26.967049418466303
+    },
+    "model.visual.blocks.26.mlp.linear_fc2.weight": {
+      "vision_bias": 209.0699863433838,
+      "vision_bias_std": 103.59526370647444,
+      "text_bias": -203.00826517740884,
+      "text_bias_std": 86.2981168417988
+    },
+    "model.visual.merger.linear_fc1.weight": {
+      "vision_bias": 14.515140533447266,
+      "vision_bias_std": 3.4206782547704653,
+      "text_bias": -13.824951648712158,
+      "text_bias_std": 3.480630085972495
+    },
+    "model.visual.merger.linear_fc2.weight": {
+      "vision_bias": 11.316618800163269,
+      "vision_bias_std": 3.7662192914135018,
+      "text_bias": -10.11163822809855,
+      "text_bias_std": 3.005689192613547
+    },
+    "model.visual.deepstack_merger_list.0.linear_fc1.weight": {
+      "vision_bias": 55.47888692220052,
+      "vision_bias_std": 4.594605335060331,
+      "text_bias": -54.01868693033854,
+      "text_bias_std": 4.009253020127316
+    },
+    "model.visual.deepstack_merger_list.0.linear_fc2.weight": {
+      "vision_bias": 15.559459288914999,
+      "vision_bias_std": 1.716159164143538,
+      "text_bias": -15.173458019892374,
+      "text_bias_std": 1.7010915379962153
+    },
+    "model.visual.deepstack_merger_list.1.linear_fc1.weight": {
+      "vision_bias": 53.95518938700358,
+      "vision_bias_std": 4.443995055697594,
+      "text_bias": -52.48470656077067,
+      "text_bias_std": 2.8052140748181094
+    },
+    "model.visual.deepstack_merger_list.1.linear_fc2.weight": {
+      "vision_bias": 14.071239868799845,
+      "vision_bias_std": 1.0491289729584876,
+      "text_bias": -13.705929358800253,
+      "text_bias_std": 1.2518176044042135
+    },
+    "model.visual.deepstack_merger_list.2.linear_fc1.weight": {
+      "vision_bias": 36.46845626831055,
+      "vision_bias_std": 3.2486424828088762,
+      "text_bias": -35.22576649983724,
+      "text_bias_std": 2.5562711598512524
+    },
+    "model.visual.deepstack_merger_list.2.linear_fc2.weight": {
+      "vision_bias": 10.831000169118246,
+      "vision_bias_std": 0.8099830685849772,
+      "text_bias": -10.33902637163798,
+      "text_bias_std": 0.7772124417364181
+    },
+    "model.language_model.layers.0.mlp.gate_proj.weight": {
+      "vision_bias": -0.407401451220115,
+      "vision_bias_std": 0.033752789243603955,
+      "text_bias": 0.29101623346408206,
+      "text_bias_std": 0.07112665312348636
+    },
+    "model.language_model.layers.1.mlp.gate_proj.weight": {
+      "vision_bias": -1.1655834515889485,
+      "vision_bias_std": 0.2933973159978497,
+      "text_bias": 0.9090995093186697,
+      "text_bias_std": 0.3755430523530501
+    },
+    "model.language_model.layers.2.mlp.gate_proj.weight": {
+      "vision_bias": -1.7655887305736542,
+      "vision_bias_std": 0.3549173493905708,
+      "text_bias": 1.6157189806302388,
+      "text_bias_std": 0.5413930830146677
+    },
+    "model.language_model.layers.3.mlp.gate_proj.weight": {
+      "vision_bias": -1.63622119029363,
+      "vision_bias_std": 0.3623199668669366,
+      "text_bias": 1.2861686547597249,
+      "text_bias_std": 0.48248997204781296
+    },
+    "model.language_model.layers.4.mlp.gate_proj.weight": {
+      "vision_bias": -1.2806150615215302,
+      "vision_bias_std": 0.37950463080300195,
+      "text_bias": 1.1155526340007782,
+      "text_bias_std": 0.5145579703918043
+    },
+    "model.language_model.layers.5.mlp.gate_proj.weight": {
+      "vision_bias": -0.7213442971309026,
+      "vision_bias_std": 0.20656550615452862,
+      "text_bias": 0.7025352964798609,
+      "text_bias_std": 0.31053008456302095
+    },
+    "model.language_model.layers.6.mlp.gate_proj.weight": {
+      "vision_bias": -0.9166359454393387,
+      "vision_bias_std": 0.17826529605446234,
+      "text_bias": 0.8857908596595129,
+      "text_bias_std": 0.2751648812325939
+    },
+    "model.language_model.layers.7.mlp.gate_proj.weight": {
+      "vision_bias": -1.1939753890037537,
+      "vision_bias_std": 0.1982554881072461,
+      "text_bias": 1.0723427186409633,
+      "text_bias_std": 0.30006145973084747
+    },
+    "model.language_model.layers.8.mlp.gate_proj.weight": {
+      "vision_bias": -1.2105333854754765,
+      "vision_bias_std": 0.1944362818633923,
+      "text_bias": 1.0531055182218552,
+      "text_bias_std": 0.3322107841550649
+    },
+    "model.language_model.layers.9.mlp.gate_proj.weight": {
+      "vision_bias": -1.442321926355362,
+      "vision_bias_std": 0.23160694414644312,
+      "text_bias": 1.1960746546586354,
+      "text_bias_std": 0.42552916924342876
+    },
+    "model.language_model.layers.10.mlp.gate_proj.weight": {
+      "vision_bias": -0.942529559135437,
+      "vision_bias_std": 0.278643061944268,
+      "text_bias": 0.8307762344678243,
+      "text_bias_std": 0.5194185336947015
+    },
+    "model.language_model.layers.11.mlp.gate_proj.weight": {
+      "vision_bias": -1.1099610030651093,
+      "vision_bias_std": 0.2716490231060367,
+      "text_bias": 1.0326999227205913,
+      "text_bias_std": 0.5234377058731956
+    },
+    "model.language_model.layers.12.mlp.gate_proj.weight": {
+      "vision_bias": -1.6893678307533264,
+      "vision_bias_std": 0.23713803061403005,
+      "text_bias": 1.6256288091341655,
+      "text_bias_std": 0.5755652011815919
+    },
+    "model.language_model.layers.13.mlp.gate_proj.weight": {
+      "vision_bias": -1.8352420429388683,
+      "vision_bias_std": 0.23206690830244667,
+      "text_bias": 1.6582564016183217,
+      "text_bias_std": 0.554319225226504
+    },
+    "model.language_model.layers.14.mlp.gate_proj.weight": {
+      "vision_bias": -2.3609869678815207,
+      "vision_bias_std": 0.22686849871681647,
+      "text_bias": 2.0490875840187073,
+      "text_bias_std": 0.5466031915934696
+    },
+    "model.language_model.layers.15.mlp.gate_proj.weight": {
+      "vision_bias": -2.536448359489441,
+      "vision_bias_std": 0.23259029495734734,
+      "text_bias": 2.2121677100658417,
+      "text_bias_std": 0.5316223562945628
+    },
+    "model.language_model.layers.16.mlp.gate_proj.weight": {
+      "vision_bias": -2.6130661169687905,
+      "vision_bias_std": 0.22428507271050743,
+      "text_bias": 2.366504952311516,
+      "text_bias_std": 0.5707541065568271
+    },
+    "model.language_model.layers.17.mlp.gate_proj.weight": {
+      "vision_bias": -2.655313422282537,
+      "vision_bias_std": 0.2323128198666406,
+      "text_bias": 2.6658503115177155,
+      "text_bias_std": 0.6136326849266952
+    },
+    "model.language_model.layers.18.mlp.gate_proj.weight": {
+      "vision_bias": -3.3936056792736053,
+      "vision_bias_std": 0.24395499638907467,
+      "text_bias": 3.0081892758607864,
+      "text_bias_std": 0.6337218837200636
+    },
+    "model.language_model.layers.19.mlp.gate_proj.weight": {
+      "vision_bias": -4.434589763482411,
+      "vision_bias_std": 0.2765269402666447,
+      "text_bias": 3.519871195157369,
+      "text_bias_std": 0.7152902773619796
+    },
+    "model.language_model.layers.20.mlp.gate_proj.weight": {
+      "vision_bias": -5.516152769327164,
+      "vision_bias_std": 0.49240676273180417,
+      "text_bias": 4.208995670080185,
+      "text_bias_std": 0.7750263041997807
+    },
+    "model.language_model.layers.21.mlp.gate_proj.weight": {
+      "vision_bias": -6.3761599858601885,
+      "vision_bias_std": 0.7626229562133785,
+      "text_bias": 5.08738128344218,
+      "text_bias_std": 0.9584938191468368
+    },
+    "model.language_model.layers.22.mlp.gate_proj.weight": {
+      "vision_bias": -6.887008259693782,
+      "vision_bias_std": 0.9388678380050091,
+      "text_bias": 5.4681145052115125,
+      "text_bias_std": 1.1747976267133804
+    },
+    "model.language_model.layers.23.mlp.gate_proj.weight": {
+      "vision_bias": -7.377841681241989,
+      "vision_bias_std": 1.0419162766457877,
+      "text_bias": 6.101440886656444,
+      "text_bias_std": 1.2980866321823352
+    },
+    "model.language_model.layers.24.mlp.gate_proj.weight": {
+      "vision_bias": -8.061866819858551,
+      "vision_bias_std": 1.174564710224345,
+      "text_bias": 7.168786058823268,
+      "text_bias_std": 1.4273647622970254
+    },
+    "model.language_model.layers.25.mlp.gate_proj.weight": {
+      "vision_bias": -8.63571098446846,
+      "vision_bias_std": 1.349208045455107,
+      "text_bias": 8.03490642706553,
+      "text_bias_std": 1.6385746456529495
+    },
+    "model.language_model.layers.26.mlp.gate_proj.weight": {
+      "vision_bias": -9.884259184201559,
+      "vision_bias_std": 1.5453985473530347,
+      "text_bias": 9.238642454147339,
+      "text_bias_std": 1.7929439022346467
+    },
+    "model.language_model.layers.27.mlp.gate_proj.weight": {
+      "vision_bias": -10.96384984254837,
+      "vision_bias_std": 1.7637256138561137,
+      "text_bias": 9.84041835864385,
+      "text_bias_std": 1.9733045426406322
+    },
+    "model.language_model.layers.28.mlp.gate_proj.weight": {
+      "vision_bias": -11.648393452167511,
+      "vision_bias_std": 1.8967237596284823,
+      "text_bias": 10.633964558442434,
+      "text_bias_std": 2.0932677861668085
+    },
+    "model.language_model.layers.29.mlp.gate_proj.weight": {
+      "vision_bias": -12.498203674952189,
+      "vision_bias_std": 1.9315676637668822,
+      "text_bias": 11.346218387285868,
+      "text_bias_std": 2.172561908851093
+    },
+    "model.language_model.layers.30.mlp.gate_proj.weight": {
+      "vision_bias": -13.114380041758219,
+      "vision_bias_std": 2.05651409658011,
+      "text_bias": 11.997668822606405,
+      "text_bias_std": 2.350933886392917
+    },
+    "model.language_model.layers.31.mlp.gate_proj.weight": {
+      "vision_bias": -13.059106528759003,
+      "vision_bias_std": 2.2097713077170886,
+      "text_bias": 12.214613397916159,
+      "text_bias_std": 2.4011228786514525
+    },
+    "model.language_model.layers.32.mlp.gate_proj.weight": {
+      "vision_bias": -13.608788152535757,
+      "vision_bias_std": 2.2503775936189556,
+      "text_bias": 12.6309987505277,
+      "text_bias_std": 2.3760354555276315
+    },
+    "model.language_model.layers.33.mlp.gate_proj.weight": {
+      "vision_bias": -13.671963592370352,
+      "vision_bias_std": 2.2408194288243415,
+      "text_bias": 12.717271665732065,
+      "text_bias_std": 2.4120753573747606
+    },
+    "model.language_model.layers.34.mlp.gate_proj.weight": {
+      "vision_bias": -14.3451406955719,
+      "vision_bias_std": 2.2076542287243,
+      "text_bias": 13.000449160734812,
+      "text_bias_std": 2.4193027089364123
+    },
+    "model.language_model.layers.35.mlp.gate_proj.weight": {
+      "vision_bias": -16.36560712258021,
+      "vision_bias_std": 2.413189009309809,
+      "text_bias": 14.886912524700165,
+      "text_bias_std": 2.7430682422087274
+    }
+  },
+  "run_id": 0
+}

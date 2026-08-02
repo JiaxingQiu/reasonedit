@@ -1,0 +1,471 @@
+{
+  "model_tag": "instructblip-vicuna-7b_sbert",
+  "n_samples": 10,
+  "run_id": 6,
+  "shift_mode": "global",
+  "scalers": {
+    "0.1": {
+      "vision_Q": 0.25916793942451477,
+      "language_Q": -0.024874767288565636,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08491874486207962,
+      "bimodal_or_Q": 0.17915338277816772,
+      "bimodal_and_or_Q": 0.26407214999198914,
+      "vision_Q_shifted": 0.2944907397031784,
+      "language_Q_shifted": 0.010448032990098,
+      "harmonic_shifted": 0.020180109839899096
+    },
+    "0.12": {
+      "vision_Q": 0.25867703557014465,
+      "language_Q": -0.024815713986754417,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08652585744857788,
+      "bimodal_or_Q": 0.18283721804618835,
+      "bimodal_and_or_Q": 0.26936304569244385,
+      "vision_Q_shifted": 0.2939998358488083,
+      "language_Q_shifted": 0.010507086291909218,
+      "harmonic_shifted": 0.020289073386929837
+    },
+    "0.14": {
+      "vision_Q": 0.25818541646003723,
+      "language_Q": -0.024754773825407028,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08896680921316147,
+      "bimodal_or_Q": 0.18791672587394714,
+      "bimodal_and_or_Q": 0.2768835425376892,
+      "vision_Q_shifted": 0.29350821673870087,
+      "language_Q_shifted": 0.010568026453256607,
+      "harmonic_shifted": 0.020401479353878076
+    },
+    "0.17": {
+      "vision_Q": 0.25744855403900146,
+      "language_Q": -0.02465999312698841,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08705291897058487,
+      "bimodal_or_Q": 0.18370305001735687,
+      "bimodal_and_or_Q": 0.27075597643852234,
+      "vision_Q_shifted": 0.2927713543176651,
+      "language_Q_shifted": 0.010662807151675224,
+      "harmonic_shifted": 0.020576223029782167
+    },
+    "0.2": {
+      "vision_Q": 0.25671061873435974,
+      "language_Q": -0.024561015889048576,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08567249774932861,
+      "bimodal_or_Q": 0.17994581162929535,
+      "bimodal_and_or_Q": 0.26561829447746277,
+      "vision_Q_shifted": 0.2920334190130234,
+      "language_Q_shifted": 0.010761784389615059,
+      "harmonic_shifted": 0.020758589664983337
+    },
+    "0.24": {
+      "vision_Q": 0.25572681427001953,
+      "language_Q": -0.02442261390388012,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08662194013595581,
+      "bimodal_or_Q": 0.182320699095726,
+      "bimodal_and_or_Q": 0.26894262433052063,
+      "vision_Q_shifted": 0.29104961454868317,
+      "language_Q_shifted": 0.010900186374783516,
+      "harmonic_shifted": 0.021013393836902466
+    },
+    "0.28": {
+      "vision_Q": 0.25474321842193604,
+      "language_Q": -0.024276919662952423,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08551225811243057,
+      "bimodal_or_Q": 0.17958523333072662,
+      "bimodal_and_or_Q": 0.2650974988937378,
+      "vision_Q_shifted": 0.29006601870059967,
+      "language_Q_shifted": 0.011045880615711212,
+      "harmonic_shifted": 0.021281355007997993
+    },
+    "0.33": {
+      "vision_Q": 0.2535124123096466,
+      "language_Q": -0.024084236472845078,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08541359752416611,
+      "bimodal_or_Q": 0.17869135737419128,
+      "bimodal_and_or_Q": 0.264104962348938,
+      "vision_Q_shifted": 0.28883521258831024,
+      "language_Q_shifted": 0.011238563805818558,
+      "harmonic_shifted": 0.021635299192404905
+    },
+    "0.4": {
+      "vision_Q": 0.2517888844013214,
+      "language_Q": -0.023795079439878464,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08826534450054169,
+      "bimodal_or_Q": 0.1849931925535202,
+      "bimodal_and_or_Q": 0.2732585370540619,
+      "vision_Q_shifted": 0.28711168467998505,
+      "language_Q_shifted": 0.011527720838785172,
+      "harmonic_shifted": 0.022165483116970346
+    },
+    "0.47": {
+      "vision_Q": 0.2500646412372589,
+      "language_Q": -0.02348298951983452,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.0849786251783371,
+      "bimodal_or_Q": 0.1779116541147232,
+      "bimodal_and_or_Q": 0.2628902792930603,
+      "vision_Q_shifted": 0.28538744151592255,
+      "language_Q_shifted": 0.011839810758829117,
+      "harmonic_shifted": 0.022736362662812013
+    },
+    "0.56": {
+      "vision_Q": 0.24784760177135468,
+      "language_Q": -0.02304811030626297,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08609338849782944,
+      "bimodal_or_Q": 0.18010517954826355,
+      "bimodal_and_or_Q": 0.2661985754966736,
+      "vision_Q_shifted": 0.2831704020500183,
+      "language_Q_shifted": 0.012274689972400665,
+      "harmonic_shifted": 0.02352944075483421
+    },
+    "0.67": {
+      "vision_Q": 0.2451370805501938,
+      "language_Q": -0.0224648118019104,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08568793535232544,
+      "bimodal_or_Q": 0.1780669093132019,
+      "bimodal_and_or_Q": 0.26375484466552734,
+      "vision_Q_shifted": 0.2804598808288574,
+      "language_Q_shifted": 0.012857988476753235,
+      "harmonic_shifted": 0.024588682063088032
+    },
+    "0.79": {
+      "vision_Q": 0.24218109250068665,
+      "language_Q": -0.021763494238257408,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08418094366788864,
+      "bimodal_or_Q": 0.1746692806482315,
+      "bimodal_and_or_Q": 0.25885018706321716,
+      "vision_Q_shifted": 0.2775038927793503,
+      "language_Q_shifted": 0.013559306040406227,
+      "harmonic_shifted": 0.025855279711465062
+    },
+    "0.94": {
+      "vision_Q": 0.23848839104175568,
+      "language_Q": -0.020791202783584595,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08848845958709717,
+      "bimodal_or_Q": 0.1836663782596588,
+      "bimodal_and_or_Q": 0.27215486764907837,
+      "vision_Q_shifted": 0.2738111913204193,
+      "language_Q_shifted": 0.01453159749507904,
+      "harmonic_shifted": 0.02759849856666537
+    },
+    "1.1": {
+      "vision_Q": 0.23455466330051422,
+      "language_Q": -0.01963687501847744,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08733263611793518,
+      "bimodal_or_Q": 0.17943640053272247,
+      "bimodal_and_or_Q": 0.26676905155181885,
+      "vision_Q_shifted": 0.26987746357917786,
+      "language_Q_shifted": 0.015685925260186195,
+      "harmonic_shifted": 0.02964860264697952
+    },
+    "1.3": {
+      "vision_Q": 0.2296484261751175,
+      "language_Q": -0.018024349585175514,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08451878279447556,
+      "bimodal_or_Q": 0.17210613191127777,
+      "bimodal_and_or_Q": 0.25662490725517273,
+      "vision_Q_shifted": 0.26497122645378113,
+      "language_Q_shifted": 0.01729845069348812,
+      "harmonic_shifted": 0.032476685007950035
+    },
+    "1.6": {
+      "vision_Q": 0.22232100367546082,
+      "language_Q": -0.015255024656653404,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08553484082221985,
+      "bimodal_or_Q": 0.17352290451526642,
+      "bimodal_and_or_Q": 0.25905776023864746,
+      "vision_Q_shifted": 0.25764380395412445,
+      "language_Q_shifted": 0.02006777562201023,
+      "harmonic_shifted": 0.03723530762414689
+    },
+    "1.9": {
+      "vision_Q": 0.21504448354244232,
+      "language_Q": -0.012072320096194744,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08650585263967514,
+      "bimodal_or_Q": 0.17468507587909698,
+      "bimodal_and_or_Q": 0.2611909508705139,
+      "vision_Q_shifted": 0.25036728382110596,
+      "language_Q_shifted": 0.02325048018246889,
+      "harmonic_shifted": 0.04254957343153447
+    },
+    "2.2": {
+      "vision_Q": 0.20783115923404694,
+      "language_Q": -0.008487963117659092,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08557970821857452,
+      "bimodal_or_Q": 0.17182384431362152,
+      "bimodal_and_or_Q": 0.25740352272987366,
+      "vision_Q_shifted": 0.24315395951271057,
+      "language_Q_shifted": 0.026834837161004543,
+      "harmonic_shifted": 0.048335316049892406
+    },
+    "2.7": {
+      "vision_Q": 0.19598177075386047,
+      "language_Q": -0.0016652444610372186,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08813276141881943,
+      "bimodal_or_Q": 0.17431555688381195,
+      "bimodal_and_or_Q": 0.2624483108520508,
+      "vision_Q_shifted": 0.2313045710325241,
+      "language_Q_shifted": 0.03365755581762642,
+      "harmonic_shifted": 0.05876422115831074
+    },
+    "3.2": {
+      "vision_Q": 0.1843901127576828,
+      "language_Q": 0.006135811563581228,
+      "harmonic": 0.011876420388449641,
+      "bimodal_and_Q": 0.08832009881734848,
+      "bimodal_or_Q": 0.1731499880552292,
+      "bimodal_and_or_Q": 0.2614700496196747,
+      "vision_Q_shifted": 0.21971291303634644,
+      "language_Q_shifted": 0.041458611842244864,
+      "harmonic_shifted": 0.06975486613662965
+    },
+    "3.8": {
+      "vision_Q": 0.17088225483894348,
+      "language_Q": 0.01662607677280903,
+      "harmonic": 0.0303037359848699,
+      "bimodal_and_Q": 0.08972624689340591,
+      "bimodal_or_Q": 0.17410996556282043,
+      "bimodal_and_or_Q": 0.26383620500564575,
+      "vision_Q_shifted": 0.20620505511760712,
+      "language_Q_shifted": 0.051948877051472664,
+      "harmonic_shifted": 0.08299018314918198
+    },
+    "4.5": {
+      "vision_Q": 0.1557581126689911,
+      "language_Q": 0.03013339266180992,
+      "harmonic": 0.0504974163393302,
+      "bimodal_and_Q": 0.09080193191766739,
+      "bimodal_or_Q": 0.17466618120670319,
+      "bimodal_and_or_Q": 0.2654680907726288,
+      "vision_Q_shifted": 0.19108091294765472,
+      "language_Q_shifted": 0.06545619294047356,
+      "harmonic_shifted": 0.09750970770363183
+    },
+    "5.3": {
+      "vision_Q": 0.13941484689712524,
+      "language_Q": 0.046773381531238556,
+      "harmonic": 0.07004635985939762,
+      "bimodal_and_Q": 0.08949340879917145,
+      "bimodal_or_Q": 0.17163795232772827,
+      "bimodal_and_or_Q": 0.2611313760280609,
+      "vision_Q_shifted": 0.17473764717578888,
+      "language_Q_shifted": 0.08209618180990219,
+      "harmonic_shifted": 0.11170875509843621
+    },
+    "6.3": {
+      "vision_Q": 0.12053034454584122,
+      "language_Q": 0.06856152415275574,
+      "harmonic": 0.08740454241204482,
+      "bimodal_and_Q": 0.08592257648706436,
+      "bimodal_or_Q": 0.1643538475036621,
+      "bimodal_and_or_Q": 0.25027644634246826,
+      "vision_Q_shifted": 0.15585314482450485,
+      "language_Q_shifted": 0.10388432443141937,
+      "harmonic_shifted": 0.12466971905892292
+    },
+    "7.5": {
+      "vision_Q": 0.10025318711996078,
+      "language_Q": 0.09491302818059921,
+      "harmonic": 0.09751004864912623,
+      "bimodal_and_Q": 0.09538544714450836,
+      "bimodal_or_Q": 0.18338684737682343,
+      "bimodal_and_or_Q": 0.2787722647190094,
+      "vision_Q_shifted": 0.13557598739862442,
+      "language_Q_shifted": 0.13023582845926285,
+      "harmonic_shifted": 0.13285226603682984
+    },
+    "8.9": {
+      "vision_Q": 0.07986793667078018,
+      "language_Q": 0.12442303448915482,
+      "harmonic": 0.0972868353656837,
+      "bimodal_and_Q": 0.09968870133161545,
+      "bimodal_or_Q": 0.19298797845840454,
+      "bimodal_and_or_Q": 0.2926766872406006,
+      "vision_Q_shifted": 0.11519073694944382,
+      "language_Q_shifted": 0.15974583476781845,
+      "harmonic_shifted": 0.1338580772763287
+    },
+    "11.0": {
+      "vision_Q": 0.05532495677471161,
+      "language_Q": 0.1640044003725052,
+      "harmonic": 0.08273891356350502,
+      "bimodal_and_Q": 0.10250122100114822,
+      "bimodal_or_Q": 0.20172664523124695,
+      "bimodal_and_or_Q": 0.3042278587818146,
+      "vision_Q_shifted": 0.09064775705337524,
+      "language_Q_shifted": 0.19932720065116882,
+      "harmonic_shifted": 0.12462154526575787
+    },
+    "13.0": {
+      "vision_Q": 0.03755243122577667,
+      "language_Q": 0.19560912251472473,
+      "harmonic": 0.06300865646610035,
+      "bimodal_and_Q": 0.1021997332572937,
+      "bimodal_or_Q": 0.2054232358932495,
+      "bimodal_and_or_Q": 0.3076229691505432,
+      "vision_Q_shifted": 0.07287523150444031,
+      "language_Q_shifted": 0.23093192279338837,
+      "harmonic_shifted": 0.11078881518922803
+    },
+    "15.0": {
+      "vision_Q": 0.02397901378571987,
+      "language_Q": 0.22162719070911407,
+      "harmonic": 0.043275791604979554,
+      "bimodal_and_Q": 0.09583210945129395,
+      "bimodal_or_Q": 0.19781163334846497,
+      "bimodal_and_or_Q": 0.2936437427997589,
+      "vision_Q_shifted": 0.05930181406438351,
+      "language_Q_shifted": 0.2569499909877777,
+      "harmonic_shifted": 0.09636372248935614
+    },
+    "18.0": {
+      "vision_Q": 0.009248919785022736,
+      "language_Q": 0.25206321477890015,
+      "harmonic": 0.017843124339675186,
+      "bimodal_and_Q": 0.09186479449272156,
+      "bimodal_or_Q": 0.19360774755477905,
+      "bimodal_and_or_Q": 0.2854725420475006,
+      "vision_Q_shifted": 0.04457172006368637,
+      "language_Q_shifted": 0.2873860150575638,
+      "harmonic_shifted": 0.0771742162217452
+    },
+    "21.0": {
+      "vision_Q": -0.0009237966150976717,
+      "language_Q": 0.27475908398628235,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.09266161918640137,
+      "bimodal_or_Q": 0.19998420774936676,
+      "bimodal_and_or_Q": 0.2926458418369293,
+      "vision_Q_shifted": 0.034399003663565964,
+      "language_Q_shifted": 0.310081884264946,
+      "harmonic_shifted": 0.06192800963198208
+    },
+    "25.0": {
+      "vision_Q": -0.010100687853991985,
+      "language_Q": 0.2968030273914337,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.1011907160282135,
+      "bimodal_or_Q": 0.2187076359987259,
+      "bimodal_and_or_Q": 0.3198983371257782,
+      "vision_Q_shifted": 0.02522211242467165,
+      "language_Q_shifted": 0.33212582767009735,
+      "harmonic_shifted": 0.046883801610333904
+    },
+    "30.0": {
+      "vision_Q": -0.017427749931812286,
+      "language_Q": 0.31588438153266907,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.0937020555138588,
+      "bimodal_or_Q": 0.20977231860160828,
+      "bimodal_and_or_Q": 0.3034743666648865,
+      "vision_Q_shifted": 0.01789505034685135,
+      "language_Q_shifted": 0.3512071818113327,
+      "harmonic_shifted": 0.03405490215510863
+    },
+    "35.0": {
+      "vision_Q": -0.02214859053492546,
+      "language_Q": 0.32917147874832153,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08995473384857178,
+      "bimodal_or_Q": 0.20050834119319916,
+      "bimodal_and_or_Q": 0.29046306014060974,
+      "vision_Q_shifted": 0.013174209743738174,
+      "language_Q_shifted": 0.36449427902698517,
+      "harmonic_shifted": 0.025429307580963168
+    },
+    "42.0": {
+      "vision_Q": -0.026369469240307808,
+      "language_Q": 0.34200894832611084,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08739104866981506,
+      "bimodal_or_Q": 0.19796942174434662,
+      "bimodal_and_or_Q": 0.2853604555130005,
+      "vision_Q_shifted": 0.008953331038355827,
+      "language_Q_shifted": 0.3773317486047745,
+      "harmonic_shifted": 0.017491620746321965
+    },
+    "50.0": {
+      "vision_Q": -0.029348745942115784,
+      "language_Q": 0.35186004638671875,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08817002177238464,
+      "bimodal_or_Q": 0.20328520238399506,
+      "bimodal_and_or_Q": 0.2914552092552185,
+      "vision_Q_shifted": 0.0059740543365478516,
+      "language_Q_shifted": 0.3871828466653824,
+      "harmonic_shifted": 0.011766556091288925
+    },
+    "60.0": {
+      "vision_Q": -0.03164548799395561,
+      "language_Q": 0.36011549830436707,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.0771780014038086,
+      "bimodal_or_Q": 0.18025897443294525,
+      "bimodal_and_or_Q": 0.25743696093559265,
+      "vision_Q_shifted": 0.003677312284708023,
+      "language_Q_shifted": 0.3954382985830307,
+      "harmonic_shifted": 0.007286861619177822
+    },
+    "71.0": {
+      "vision_Q": -0.033217303454875946,
+      "language_Q": 0.3662487864494324,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08945377916097641,
+      "bimodal_or_Q": 0.20560488104820251,
+      "bimodal_and_or_Q": 0.2950586676597595,
+      "vision_Q_shifted": 0.002105496823787689,
+      "language_Q_shifted": 0.401571586728096,
+      "harmonic_shifted": 0.0041890299689044275
+    },
+    "84.0": {
+      "vision_Q": -0.03439959138631821,
+      "language_Q": 0.3712332844734192,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08655357360839844,
+      "bimodal_or_Q": 0.20027421414852142,
+      "bimodal_and_or_Q": 0.28682780265808105,
+      "vision_Q_shifted": 0.0009232088923454285,
+      "language_Q_shifted": 0.4065560847520828,
+      "harmonic_shifted": 0.0018422344326913837
+    },
+    "100.0": {
+      "vision_Q": -0.035322800278663635,
+      "language_Q": 0.37543657422065735,
+      "harmonic": 0.0,
+      "bimodal_and_Q": 0.08969295769929886,
+      "bimodal_or_Q": 0.2093985676765442,
+      "bimodal_and_or_Q": 0.29909148812294006,
+      "vision_Q_shifted": 0.0,
+      "language_Q_shifted": 0.410759374499321,
+      "harmonic_shifted": 0.0
+    }
+  },
+  "baselines": {
+    "vision_layer": {
+      "vision_Q": 0.2616065740585327,
+      "language_Q": -0.025141267105937004,
+      "harmonic": 0.0
+    },
+    "lang_layer": {
+      "vision_Q": -0.03846683353185654,
+      "language_Q": 0.3949251174926758,
+      "harmonic": 0.0
+    }
+  }
+}

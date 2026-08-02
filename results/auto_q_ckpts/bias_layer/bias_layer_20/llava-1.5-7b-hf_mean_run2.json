@@ -1,0 +1,497 @@
+{
+  "bias_scores": {
+    "model.vision_tower.vision_model.encoder.layers.0.mlp.fc1.weight": {
+      "vision_bias": 2.7968132297197976,
+      "vision_bias_std": 1.526581827473501,
+      "text_bias": -3.0260717570781708,
+      "text_bias_std": 1.949646841414358
+    },
+    "model.vision_tower.vision_model.encoder.layers.0.mlp.fc2.weight": {
+      "vision_bias": 0.6727864431838194,
+      "vision_bias_std": 0.4575104260531866,
+      "text_bias": -0.7335911753276984,
+      "text_bias_std": 0.5793164291230365
+    },
+    "model.vision_tower.vision_model.encoder.layers.1.mlp.fc1.weight": {
+      "vision_bias": 3.444179207086563,
+      "vision_bias_std": 1.7230587111708593,
+      "text_bias": -3.6318450371424356,
+      "text_bias_std": 2.2616244663237013
+    },
+    "model.vision_tower.vision_model.encoder.layers.1.mlp.fc2.weight": {
+      "vision_bias": 0.6174750700592995,
+      "vision_bias_std": 0.19651427091491647,
+      "text_bias": -0.6406583885351816,
+      "text_bias_std": 0.2629884449543747
+    },
+    "model.vision_tower.vision_model.encoder.layers.2.mlp.fc1.weight": {
+      "vision_bias": 2.355614105860392,
+      "vision_bias_std": 0.701600089739759,
+      "text_bias": -2.4200944006443024,
+      "text_bias_std": 0.9602572102001651
+    },
+    "model.vision_tower.vision_model.encoder.layers.2.mlp.fc2.weight": {
+      "vision_bias": 0.3915776076416175,
+      "vision_bias_std": 0.09429426303077375,
+      "text_bias": -0.39859406277537346,
+      "text_bias_std": 0.10802541489645243
+    },
+    "model.vision_tower.vision_model.encoder.layers.3.mlp.fc1.weight": {
+      "vision_bias": 2.313759962717692,
+      "vision_bias_std": 0.4494913308902942,
+      "text_bias": -2.3523924549420676,
+      "text_bias_std": 0.6238727509561383
+    },
+    "model.vision_tower.vision_model.encoder.layers.3.mlp.fc2.weight": {
+      "vision_bias": 0.46387771517038345,
+      "vision_bias_std": 0.08165787989544612,
+      "text_bias": -0.4657648553450902,
+      "text_bias_std": 0.09743539638410487
+    },
+    "model.vision_tower.vision_model.encoder.layers.4.mlp.fc1.weight": {
+      "vision_bias": 2.1025403141975403,
+      "vision_bias_std": 0.3628925792435685,
+      "text_bias": -2.1332964400450387,
+      "text_bias_std": 0.5193181642596285
+    },
+    "model.vision_tower.vision_model.encoder.layers.4.mlp.fc2.weight": {
+      "vision_bias": 0.42826899886131287,
+      "vision_bias_std": 0.04738681075966864,
+      "text_bias": -0.42982660482327145,
+      "text_bias_std": 0.05898974404833617
+    },
+    "model.vision_tower.vision_model.encoder.layers.5.mlp.fc1.weight": {
+      "vision_bias": 2.984881122907003,
+      "vision_bias_std": 0.4193835854285623,
+      "text_bias": -2.971165398756663,
+      "text_bias_std": 0.6211518948955167
+    },
+    "model.vision_tower.vision_model.encoder.layers.5.mlp.fc2.weight": {
+      "vision_bias": 0.6521272758642832,
+      "vision_bias_std": 0.08658165947918622,
+      "text_bias": -0.6406152074535688,
+      "text_bias_std": 0.11177892681972397
+    },
+    "model.vision_tower.vision_model.encoder.layers.6.mlp.fc1.weight": {
+      "vision_bias": 3.3949958284695945,
+      "vision_bias_std": 0.41122930722445344,
+      "text_bias": -3.3345577319463096,
+      "text_bias_std": 0.6044185757594973
+    },
+    "model.vision_tower.vision_model.encoder.layers.6.mlp.fc2.weight": {
+      "vision_bias": 0.8136755128701528,
+      "vision_bias_std": 0.09053471448214265,
+      "text_bias": -0.797177662452062,
+      "text_bias_std": 0.13532608085926728
+    },
+    "model.vision_tower.vision_model.encoder.layers.7.mlp.fc1.weight": {
+      "vision_bias": 4.038009166717529,
+      "vision_bias_std": 0.5326407123254284,
+      "text_bias": -3.9685740868250527,
+      "text_bias_std": 0.7452827999632584
+    },
+    "model.vision_tower.vision_model.encoder.layers.7.mlp.fc2.weight": {
+      "vision_bias": 1.0028500854969025,
+      "vision_bias_std": 0.14085516653874774,
+      "text_bias": -0.9806896646817526,
+      "text_bias_std": 0.18947194943318016
+    },
+    "model.vision_tower.vision_model.encoder.layers.8.mlp.fc1.weight": {
+      "vision_bias": 4.575971603393555,
+      "vision_bias_std": 0.6448816173038261,
+      "text_bias": -4.46948238213857,
+      "text_bias_std": 0.8019036029179835
+    },
+    "model.vision_tower.vision_model.encoder.layers.8.mlp.fc2.weight": {
+      "vision_bias": 1.1663253357013066,
+      "vision_bias_std": 0.17075664390218975,
+      "text_bias": -1.1364724685748417,
+      "text_bias_std": 0.19866218636545846
+    },
+    "model.vision_tower.vision_model.encoder.layers.9.mlp.fc1.weight": {
+      "vision_bias": 4.2085743347803755,
+      "vision_bias_std": 0.5069648924639328,
+      "text_bias": -4.152174353599548,
+      "text_bias_std": 0.7085805793590101
+    },
+    "model.vision_tower.vision_model.encoder.layers.9.mlp.fc2.weight": {
+      "vision_bias": 1.0247892141342163,
+      "vision_bias_std": 0.1127977950715186,
+      "text_bias": -1.0101358989874523,
+      "text_bias_std": 0.1529838910153292
+    },
+    "model.vision_tower.vision_model.encoder.layers.10.mlp.fc1.weight": {
+      "vision_bias": 3.844844182332357,
+      "vision_bias_std": 0.4857007764172816,
+      "text_bias": -3.8100624084472656,
+      "text_bias_std": 0.6527507353592087
+    },
+    "model.vision_tower.vision_model.encoder.layers.10.mlp.fc2.weight": {
+      "vision_bias": 0.8340940624475479,
+      "vision_bias_std": 0.09240575507402489,
+      "text_bias": -0.8283308843771616,
+      "text_bias_std": 0.11849200400186302
+    },
+    "model.vision_tower.vision_model.encoder.layers.11.mlp.fc1.weight": {
+      "vision_bias": 3.799869696299235,
+      "vision_bias_std": 0.446610475912349,
+      "text_bias": -3.761506179968516,
+      "text_bias_std": 0.5524543225465907
+    },
+    "model.vision_tower.vision_model.encoder.layers.11.mlp.fc2.weight": {
+      "vision_bias": 0.7774426490068436,
+      "vision_bias_std": 0.07951631073959702,
+      "text_bias": -0.7678888142108917,
+      "text_bias_std": 0.09447391053718435
+    },
+    "model.vision_tower.vision_model.encoder.layers.12.mlp.fc1.weight": {
+      "vision_bias": 3.370739738146464,
+      "vision_bias_std": 0.3629524981443357,
+      "text_bias": -3.3604058623313904,
+      "text_bias_std": 0.468111881922319
+    },
+    "model.vision_tower.vision_model.encoder.layers.12.mlp.fc2.weight": {
+      "vision_bias": 0.6712585836648941,
+      "vision_bias_std": 0.06865778986593915,
+      "text_bias": -0.6725274672110876,
+      "text_bias_std": 0.07731315287995577
+    },
+    "model.vision_tower.vision_model.encoder.layers.13.mlp.fc1.weight": {
+      "vision_bias": 3.4702423810958862,
+      "vision_bias_std": 0.343009619422549,
+      "text_bias": -3.478729784488678,
+      "text_bias_std": 0.4623131863755193
+    },
+    "model.vision_tower.vision_model.encoder.layers.13.mlp.fc2.weight": {
+      "vision_bias": 0.6713644911845525,
+      "vision_bias_std": 0.07712266290492106,
+      "text_bias": -0.6716224849224091,
+      "text_bias_std": 0.08715949244951658
+    },
+    "model.vision_tower.vision_model.encoder.layers.14.mlp.fc1.weight": {
+      "vision_bias": 3.569289743900299,
+      "vision_bias_std": 0.3915157712105478,
+      "text_bias": -3.555495103200277,
+      "text_bias_std": 0.5101545058610195
+    },
+    "model.vision_tower.vision_model.encoder.layers.14.mlp.fc2.weight": {
+      "vision_bias": 0.5785651008288065,
+      "vision_bias_std": 0.057980243466086726,
+      "text_bias": -0.5737445279955864,
+      "text_bias_std": 0.06725255043109046
+    },
+    "model.vision_tower.vision_model.encoder.layers.15.mlp.fc1.weight": {
+      "vision_bias": 3.722028056780497,
+      "vision_bias_std": 0.3866472285943982,
+      "text_bias": -3.6892389059066772,
+      "text_bias_std": 0.5148954245927337
+    },
+    "model.vision_tower.vision_model.encoder.layers.15.mlp.fc2.weight": {
+      "vision_bias": 0.5559806302189827,
+      "vision_bias_std": 0.05032680527690014,
+      "text_bias": -0.5509630292654037,
+      "text_bias_std": 0.07069773778799009
+    },
+    "model.vision_tower.vision_model.encoder.layers.16.mlp.fc1.weight": {
+      "vision_bias": 4.408812046051025,
+      "vision_bias_std": 0.5066123289501154,
+      "text_bias": -4.36858057975769,
+      "text_bias_std": 0.656868874620878
+    },
+    "model.vision_tower.vision_model.encoder.layers.16.mlp.fc2.weight": {
+      "vision_bias": 0.5413089320063591,
+      "vision_bias_std": 0.06694589101038705,
+      "text_bias": -0.5384459843238195,
+      "text_bias_std": 0.0875408298847007
+    },
+    "model.vision_tower.vision_model.encoder.layers.17.mlp.fc1.weight": {
+      "vision_bias": 5.005503853162129,
+      "vision_bias_std": 0.5641655710750307,
+      "text_bias": -4.970823725064595,
+      "text_bias_std": 0.7652998776386752
+    },
+    "model.vision_tower.vision_model.encoder.layers.17.mlp.fc2.weight": {
+      "vision_bias": 0.5479936574896177,
+      "vision_bias_std": 0.0574191807118751,
+      "text_bias": -0.5499527752399445,
+      "text_bias_std": 0.08451340917478792
+    },
+    "model.vision_tower.vision_model.encoder.layers.18.mlp.fc1.weight": {
+      "vision_bias": 5.6579751173655195,
+      "vision_bias_std": 0.630775467768636,
+      "text_bias": -5.595827579498291,
+      "text_bias_std": 0.8344447494999319
+    },
+    "model.vision_tower.vision_model.encoder.layers.18.mlp.fc2.weight": {
+      "vision_bias": 0.6173108145594597,
+      "vision_bias_std": 0.07692675791535444,
+      "text_bias": -0.6114357908566793,
+      "text_bias_std": 0.10573170312235709
+    },
+    "model.vision_tower.vision_model.encoder.layers.19.mlp.fc1.weight": {
+      "vision_bias": 5.737398703893025,
+      "vision_bias_std": 0.5605048499268364,
+      "text_bias": -5.669958511988322,
+      "text_bias_std": 0.8086158188388235
+    },
+    "model.vision_tower.vision_model.encoder.layers.19.mlp.fc2.weight": {
+      "vision_bias": 0.703110471367836,
+      "vision_bias_std": 0.07875922609057426,
+      "text_bias": -0.7020877798398336,
+      "text_bias_std": 0.10771241253651002
+    },
+    "model.vision_tower.vision_model.encoder.layers.20.mlp.fc1.weight": {
+      "vision_bias": 6.714998841285706,
+      "vision_bias_std": 0.5936543758116573,
+      "text_bias": -6.6150254011154175,
+      "text_bias_std": 0.9663968859385714
+    },
+    "model.vision_tower.vision_model.encoder.layers.20.mlp.fc2.weight": {
+      "vision_bias": 1.098626971244812,
+      "vision_bias_std": 0.2555902461818377,
+      "text_bias": -1.0847179541985195,
+      "text_bias_std": 0.25028956641746575
+    },
+    "model.vision_tower.vision_model.encoder.layers.21.mlp.fc1.weight": {
+      "vision_bias": 6.1575279633204145,
+      "vision_bias_std": 0.5694831317471624,
+      "text_bias": -6.103165467580159,
+      "text_bias_std": 0.9806102487897592
+    },
+    "model.vision_tower.vision_model.encoder.layers.21.mlp.fc2.weight": {
+      "vision_bias": 0.9892166554927826,
+      "vision_bias_std": 0.1763416367793675,
+      "text_bias": -0.958339661359787,
+      "text_bias_std": 0.20704164617559487
+    },
+    "model.vision_tower.vision_model.encoder.layers.22.mlp.fc1.weight": {
+      "vision_bias": 6.02061649163564,
+      "vision_bias_std": 0.5912298249175055,
+      "text_bias": -5.965062578519185,
+      "text_bias_std": 0.920972395970515
+    },
+    "model.vision_tower.vision_model.encoder.layers.22.mlp.fc2.weight": {
+      "vision_bias": 0.986626555522283,
+      "vision_bias_std": 0.0890763084348898,
+      "text_bias": -0.961092472076416,
+      "text_bias_std": 0.14384290366175556
+    },
+    "model.vision_tower.vision_model.encoder.layers.23.mlp.fc1.weight": {
+      "vision_bias": 3.569788634777069,
+      "vision_bias_std": 0.3799421083801958,
+      "text_bias": -3.5291863878568015,
+      "text_bias_std": 0.6084608811829987
+    },
+    "model.vision_tower.vision_model.encoder.layers.23.mlp.fc2.weight": {
+      "vision_bias": 0.7353217651446661,
+      "vision_bias_std": 0.05202260744130184,
+      "text_bias": -0.7219486186901728,
+      "text_bias_std": 0.09914314889757574
+    },
+    "model.multi_modal_projector.linear_1.weight": {
+      "vision_bias": 1.8588871757189434,
+      "vision_bias_std": 0.16474653861579475,
+      "text_bias": -1.8387928009033203,
+      "text_bias_std": 0.2919330654461698
+    },
+    "model.multi_modal_projector.linear_2.weight": {
+      "vision_bias": 1.0960084199905396,
+      "vision_bias_std": 0.07526219846340872,
+      "text_bias": -1.0875936796267827,
+      "text_bias_std": 0.14564761440285418
+    },
+    "model.language_model.layers.0.mlp.gate_proj.weight": {
+      "vision_bias": 0.16299283069868883,
+      "vision_bias_std": 0.01871316404032827,
+      "text_bias": -0.16202295160231492,
+      "text_bias_std": 0.02892250194286905
+    },
+    "model.language_model.layers.1.mlp.gate_proj.weight": {
+      "vision_bias": 0.2979397665088375,
+      "vision_bias_std": 0.03550127261224285,
+      "text_bias": -0.29726231191307306,
+      "text_bias_std": 0.053194031831547334
+    },
+    "model.language_model.layers.2.mlp.gate_proj.weight": {
+      "vision_bias": 0.38035097407797974,
+      "vision_bias_std": 0.04624972338539874,
+      "text_bias": -0.3829296006200214,
+      "text_bias_std": 0.06847536902756654
+    },
+    "model.language_model.layers.3.mlp.gate_proj.weight": {
+      "vision_bias": 0.485397865374883,
+      "vision_bias_std": 0.05910420689039212,
+      "text_bias": -0.4866513501231869,
+      "text_bias_std": 0.0869971122478187
+    },
+    "model.language_model.layers.4.mlp.gate_proj.weight": {
+      "vision_bias": 0.522061018894116,
+      "vision_bias_std": 0.06464378300397045,
+      "text_bias": -0.5234475191682577,
+      "text_bias_std": 0.094296622042652
+    },
+    "model.language_model.layers.5.mlp.gate_proj.weight": {
+      "vision_bias": 0.5474921918163697,
+      "vision_bias_std": 0.06907905778753683,
+      "text_bias": -0.5552556697900096,
+      "text_bias_std": 0.10072435688584282
+    },
+    "model.language_model.layers.6.mlp.gate_proj.weight": {
+      "vision_bias": 0.5686718833943208,
+      "vision_bias_std": 0.07180062391590704,
+      "text_bias": -0.5805680702129999,
+      "text_bias_std": 0.10508543023377671
+    },
+    "model.language_model.layers.7.mlp.gate_proj.weight": {
+      "vision_bias": 0.5959716935952505,
+      "vision_bias_std": 0.07524200791062079,
+      "text_bias": -0.6105738574018081,
+      "text_bias_std": 0.10926884242562092
+    },
+    "model.language_model.layers.8.mlp.gate_proj.weight": {
+      "vision_bias": 0.5877182434002558,
+      "vision_bias_std": 0.07340013950214062,
+      "text_bias": -0.601276378457745,
+      "text_bias_std": 0.10718282917605484
+    },
+    "model.language_model.layers.9.mlp.gate_proj.weight": {
+      "vision_bias": 0.5743406812349955,
+      "vision_bias_std": 0.0701119287293389,
+      "text_bias": -0.5902740123371283,
+      "text_bias_std": 0.10233913765290846
+    },
+    "model.language_model.layers.10.mlp.gate_proj.weight": {
+      "vision_bias": 0.5633294681708018,
+      "vision_bias_std": 0.06662171801936059,
+      "text_bias": -0.5840417587508758,
+      "text_bias_std": 0.09969818473159628
+    },
+    "model.language_model.layers.11.mlp.gate_proj.weight": {
+      "vision_bias": 0.5714753406743208,
+      "vision_bias_std": 0.06526112054894757,
+      "text_bias": -0.594399863233169,
+      "text_bias_std": 0.09710811506949155
+    },
+    "model.language_model.layers.12.mlp.gate_proj.weight": {
+      "vision_bias": 0.5692608940104643,
+      "vision_bias_std": 0.06287529218383696,
+      "text_bias": -0.5913740235070387,
+      "text_bias_std": 0.09535442765564862
+    },
+    "model.language_model.layers.13.mlp.gate_proj.weight": {
+      "vision_bias": 0.5720166452229023,
+      "vision_bias_std": 0.061096079151510156,
+      "text_bias": -0.5997970805813869,
+      "text_bias_std": 0.09494401949628795
+    },
+    "model.language_model.layers.14.mlp.gate_proj.weight": {
+      "vision_bias": 0.5870900116860867,
+      "vision_bias_std": 0.06493249659855073,
+      "text_bias": -0.6230756690104803,
+      "text_bias_std": 0.0987447857932843
+    },
+    "model.language_model.layers.15.mlp.gate_proj.weight": {
+      "vision_bias": 0.606126264979442,
+      "vision_bias_std": 0.06931968533391925,
+      "text_bias": -0.6456028005729119,
+      "text_bias_std": 0.10210554845358258
+    },
+    "model.language_model.layers.16.mlp.gate_proj.weight": {
+      "vision_bias": 0.6496555432677269,
+      "vision_bias_std": 0.07513488635339724,
+      "text_bias": -0.6979523692280054,
+      "text_bias_std": 0.11187586293248387
+    },
+    "model.language_model.layers.17.mlp.gate_proj.weight": {
+      "vision_bias": 0.6787733696401119,
+      "vision_bias_std": 0.08116825110740221,
+      "text_bias": -0.7346758581697941,
+      "text_bias_std": 0.11428971338948887
+    },
+    "model.language_model.layers.18.mlp.gate_proj.weight": {
+      "vision_bias": 0.7117032061020533,
+      "vision_bias_std": 0.08643709308045934,
+      "text_bias": -0.7750501378128926,
+      "text_bias_std": 0.120544362938036
+    },
+    "model.language_model.layers.19.mlp.gate_proj.weight": {
+      "vision_bias": 0.7369269542396069,
+      "vision_bias_std": 0.09201373581519304,
+      "text_bias": -0.8101123049855232,
+      "text_bias_std": 0.12819534774453156
+    },
+    "model.language_model.layers.20.mlp.gate_proj.weight": {
+      "vision_bias": 0.7781873370210329,
+      "vision_bias_std": 0.10661421227454906,
+      "text_bias": -0.8661898877471685,
+      "text_bias_std": 0.13971010830580335
+    },
+    "model.language_model.layers.21.mlp.gate_proj.weight": {
+      "vision_bias": 0.790405864516894,
+      "vision_bias_std": 0.11420011987348815,
+      "text_bias": -0.8906854862968127,
+      "text_bias_std": 0.14702141971445784
+    },
+    "model.language_model.layers.22.mlp.gate_proj.weight": {
+      "vision_bias": 0.8045034483075142,
+      "vision_bias_std": 0.12323767413570574,
+      "text_bias": -0.9148322387288014,
+      "text_bias_std": 0.1528817322029705
+    },
+    "model.language_model.layers.23.mlp.gate_proj.weight": {
+      "vision_bias": 0.8234240015347799,
+      "vision_bias_std": 0.1317337298806025,
+      "text_bias": -0.9375981483608484,
+      "text_bias_std": 0.162390386157515
+    },
+    "model.language_model.layers.24.mlp.gate_proj.weight": {
+      "vision_bias": 0.8380350445707639,
+      "vision_bias_std": 0.14079724450565986,
+      "text_bias": -0.9593783747404814,
+      "text_bias_std": 0.17397990462882046
+    },
+    "model.language_model.layers.25.mlp.gate_proj.weight": {
+      "vision_bias": 0.8767415930827459,
+      "vision_bias_std": 0.15043405189686598,
+      "text_bias": -0.9996133390814066,
+      "text_bias_std": 0.1832178057217401
+    },
+    "model.language_model.layers.26.mlp.gate_proj.weight": {
+      "vision_bias": 0.8943842401107153,
+      "vision_bias_std": 0.15642681386167584,
+      "text_bias": -1.0177180270353954,
+      "text_bias_std": 0.19244561871548255
+    },
+    "model.language_model.layers.27.mlp.gate_proj.weight": {
+      "vision_bias": 0.9180742924412092,
+      "vision_bias_std": 0.15594259437134037,
+      "text_bias": -1.0390613246709108,
+      "text_bias_std": 0.19283468401103804
+    },
+    "model.language_model.layers.28.mlp.gate_proj.weight": {
+      "vision_bias": 0.9497402608394623,
+      "vision_bias_std": 0.1616080715323733,
+      "text_bias": -1.0698783087233703,
+      "text_bias_std": 0.19821393952426616
+    },
+    "model.language_model.layers.29.mlp.gate_proj.weight": {
+      "vision_bias": 1.0088934674859047,
+      "vision_bias_std": 0.16639250850501972,
+      "text_bias": -1.1257960038880508,
+      "text_bias_std": 0.20217870280701025
+    },
+    "model.language_model.layers.30.mlp.gate_proj.weight": {
+      "vision_bias": 1.014885922273,
+      "vision_bias_std": 0.16131955578490623,
+      "text_bias": -1.1273147898415725,
+      "text_bias_std": 0.20066018109864808
+    },
+    "model.language_model.layers.31.mlp.gate_proj.weight": {
+      "vision_bias": 0.9259583801031113,
+      "vision_bias_std": 0.14054606253502885,
+      "text_bias": -1.0215552716205518,
+      "text_bias_std": 0.17431162798017297
+    }
+  },
+  "run_id": 2
+}

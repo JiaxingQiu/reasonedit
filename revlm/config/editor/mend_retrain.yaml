@@ -1,0 +1,6 @@
+_name: mend_retrain
+edit_lr: 1e-2
+min_lr: 1e-5             # Minimum LR for cosine annealing
+n_iter: 100              # Number of epochs over all edits
+early_stop_patience: 20  # Stop training if loss doesn't decrease for N epochs
+retrain_batch_size: 10   # Micro-batch size for gradient accumulation
